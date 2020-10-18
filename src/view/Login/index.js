@@ -21,9 +21,9 @@ export default function Login({ navigation }) {
                 />
                 <TextInput
                     name="user"
-                    keyboardType="email-address"
+                    keyboardType="password"
                     autoCapitalize="none"
-                    placeholder="Email"
+                    placeholder="Password"
                     style={styles.input}
                 />
             </View>

@@ -51,11 +51,11 @@ export default function Signup() {
                 />
                 <TextInput
                     name="user"
-                    keyboardType="email-address"
+                    keyboardType="password"
                     autoCapitalize="none"
                     secureTextEntry={true}
                     onChangeText={(text) => { setPass(text) }}
-                    placeholder="Pwd"
+                    placeholder="Password"
                     style={styles.input}
                 />
             </View>
